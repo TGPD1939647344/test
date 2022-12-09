@@ -1,0 +1,276 @@
+{
+  "id": "d8623506-b907-4246-9fc9-aaba9d5745d8",
+  "version": "2.0",
+  "name": "SystemTesting",
+  "url": "http://ehall.sdut.edu.cn",
+  "tests": [{
+    "id": "91be710d-1c32-4b76-86b7-083312c7f98e",
+    "name": "SystemTesting",
+    "commands": [{
+      "id": "d492b480-a8ec-4d13-876e-5574fcde860a",
+      "comment": "",
+      "command": "open",
+      "target": "/new/ehall.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59b886fc-4e87-45ea-8b25-c0ec79adfb1a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d42818c2-0a0e-4666-8283-e476ca842c4f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12495b83-2d94-42aa-9bc6-f409df2d8d7d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.firstRow > .style-scope:nth-child(1) > .style-scope",
+      "targets": [
+        ["css=.firstRow > .style-scope:nth-child(1) > .style-scope", "css:finder"],
+        ["xpath=//input[@value='新教学平台']", "xpath:attributes"],
+        ["xpath=//div[@id='ampTabContentItem0']/div[3]/pc-card-html-4953725965338070-01/amp-w-frame/div/div[2]/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27fdfdaa-726a-4412-8dc0-89bd92b7a692",
+      "comment": "",
+      "command": "click",
+      "target": "css=.firstRow > .style-scope:nth-child(1) > .style-scope",
+      "targets": [
+        ["css=.firstRow > .style-scope:nth-child(1) > .style-scope", "css:finder"],
+        ["xpath=//input[@value='新教学平台']", "xpath:attributes"],
+        ["xpath=//div[@id='ampTabContentItem0']/div[3]/pc-card-html-4953725965338070-01/amp-w-frame/div/div[2]/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7185",
+      "windowTimeout": 2000
+    }, {
+      "id": "d58c1067-b9c6-4200-bb28-2c0c88b57e4a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.firstRow > .style-scope:nth-child(1) > .style-scope",
+      "targets": [
+        ["css=.firstRow > .style-scope:nth-child(1) > .style-scope", "css:finder"],
+        ["xpath=//input[@value='新教学平台']", "xpath:attributes"],
+        ["xpath=//div[@id='ampTabContentItem0']/div[3]/pc-card-html-4953725965338070-01/amp-w-frame/div/div[2]/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03a1c5cb-f8b4-4873-968b-e4e57db6d201",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7185}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90b4d18d-84bf-4cc3-84c6-f3757e83ebc2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=我校荣获“山东省智慧教育示范校”创建单位",
+      "targets": [
+        ["linkText=我校荣获“山东省智慧教育示范校”创建单位", "linkText"],
+        ["css=li:nth-child(5) .top", "css:finder"],
+        ["xpath=//a[contains(@href, './common/inform/message_content.jsp?nid=2206151')]", "xpath:href"],
+        ["xpath=//li[5]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'我校荣获“山东省智慧教育示范校”创建单位')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0646593-36fe-4dba-a75f-fa7046ac0b88",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=我校荣获“山东省智慧教育示范校”创建单位",
+      "targets": [
+        ["linkText=我校荣获“山东省智慧教育示范校”创建单位", "linkText"],
+        ["css=li:nth-child(5) .top", "css:finder"],
+        ["xpath=//a[contains(@href, './common/inform/message_content.jsp?nid=2206151')]", "xpath:href"],
+        ["xpath=//li[5]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'我校荣获“山东省智慧教育示范校”创建单位')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b786360-00bd-46ec-af96-c4c6f4b7900d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=我校在省优秀教学案例和共享课程评选中获佳绩",
+      "targets": [
+        ["linkText=我校在省优秀教学案例和共享课程评选中获佳绩", "linkText"],
+        ["css=li:nth-child(2) .top", "css:finder"],
+        ["xpath=//a[contains(@href, './common/inform/message_content.jsp?nid=2515287')]", "xpath:href"],
+        ["xpath=//div/div/div[3]/div/div/div/div[2]/div/ul/li[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'我校在省优秀教学案例和共享课程评选中获佳绩')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a79ef7e1-5165-4ca6-ac55-25055e7ea583",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(4) > .list_img img",
+      "targets": [
+        ["css=li:nth-child(4) > .list_img img", "css:finder"],
+        ["xpath=//li[4]/div/a/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3924",
+      "windowTimeout": 2000
+    }, {
+      "id": "59c3b819-1050-4eef-8f1c-a5923250a8d5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3924}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8575edce-0719-47c7-be6e-489028548546",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tmenu > li:nth-child(2) span",
+      "targets": [
+        ["css=#tmenu > li:nth-child(2) span", "css:finder"],
+        ["xpath=//ul[@id='tmenu']/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'课程学习')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "81613a6a-d9ad-49b8-a02f-4635b8c5c2c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ul_519741 > li:nth-child(3) span",
+      "targets": [
+        ["css=.ul_519741 > li:nth-child(3) span", "css:finder"],
+        ["xpath=//div[@id='menu']/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/ul/li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'答疑讨论')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d1f5849-8dfa-406e-9690-dc25b7bc91f5",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a057fab-2219-478d-96cf-48445c80aaee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.discussion-newBuild",
+      "targets": [
+        ["css=.discussion-newBuild", "css:finder"],
+        ["xpath=//button[@onclick=\"window.location.href='/meol/common/faq/postArticle.jsp?opt=postnew&forumid=81054'\"]", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'发表新话题')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ac70173-e73c-467f-ac1a-4dac5a5dae09",
+      "comment": "",
+      "command": "click",
+      "target": "name=subject",
+      "targets": [
+        ["name=subject", "name"],
+        ["css=.input", "css:finder"],
+        ["xpath=//input[@name='subject']", "xpath:attributes"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46f50806-0325-4c85-86de-4a6c3b2c48e5",
+      "comment": "",
+      "command": "type",
+      "target": "name=subject",
+      "targets": [
+        ["name=subject", "name"],
+        ["css=.input", "css:finder"],
+        ["xpath=//input[@name='subject']", "xpath:attributes"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "6482f406-374b-45d0-9c91-3f7071499628",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "7edfd53f-e0b2-4827-b432-f83faa4945e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.view:nth-child(2)",
+      "targets": [
+        ["css=.view:nth-child(2)", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11dccc40-21c2-4d16-8ddd-952cc4d08934",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.view:nth-child(2)",
+      "targets": [
+        ["css=.view:nth-child(2)", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": "<p>test<br></p>"
+    }, {
+      "id": "39500521-f8c2-4093-9e25-443456c0cb1b",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbeafada-85d9-44f6-a2e9-3bc46b14c9f9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.button_submit",
+      "targets": [
+        ["css=.button_submit", "css:finder"],
+        ["xpath=//input[@value='发表新话题']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ae2cd88-6596-4856-826d-0f1718d4bd36",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_submit",
+      "targets": [
+        ["css=.button_submit", "css:finder"],
+        ["xpath=//input[@value='发表新话题']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c068a451-7368-4c44-b353-7e59fdbdd295",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["91be710d-1c32-4b76-86b7-083312c7f98e"]
+  }],
+  "urls": ["http://ehall.sdut.edu.cn/"],
+  "plugins": []
+}
